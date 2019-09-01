@@ -1,0 +1,134 @@
+th {
+  color: #DBCD2D;
+}
+
+h1 {
+  color: #DBCD2D;
+}
+
+#seasons table {
+  width: 60%;
+  height: 50%;
+  margin: 60px auto;
+  border: 3px solid white;
+  border-collapse: collapse;
+  font-weight: 600;
+}
+
+.content, .operContent, #seasons {
+  height: 1000px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  font-family: monospace, sans-serif;
+}
+
+@media print {
+  .siegeVideo {
+    display: none;
+  }
+}
+#overview {
+  height: 890px;
+  text-align: center;
+  background-image: url(imgs/opers.jpg);
+}
+#overview h1 {
+  margin: 0;
+  padding-top: 100px;
+  font-size: 64px;
+}
+#overview iframe {
+  margin: 80px 0 40px;
+}
+#overview p {
+  color: white;
+  font-size: 19px;
+}
+#overview p::selection {
+  color: red;
+  background-color: yellow;
+}
+
+#seasons {
+  background-image: url(imgs/bg.jpg);
+}
+#seasons h1 {
+  margin: 0;
+  padding-top: 140px;
+}
+#seasons table {
+  color: white;
+}
+#seasons table td, #seasons table th {
+  padding: 16px;
+  border: 2px solid wheat;
+}
+
+#seasons .ses {
+  color: #009FFD;
+}
+
+.operContent {
+  background-image: url(imgs/Nokk_Key_Art.jpg);
+}
+
+.navigation {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #333;
+}
+.navigation li {
+  float: left;
+}
+.navigation li a {
+  display: block;
+  padding: 16px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.navigation li a:hover {
+  color: #07151B;
+  background-color: #36A9E0;
+}
+
+.content {
+  background-image: url(imgs/PVP23_Australia_Roof.png);
+}
+
+.row {
+  padding-top: 40px;
+}
+
+.row > div {
+  text-align: center;
+}
+.row > div h4 {
+  margin: 0 0 15px;
+  color: white;
+}
+
+.Footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+}
+.Footer p {
+  margin: 0;
+  overflow: hidden;
+}
+.Footer p > span {
+  font-family: "Pacifico", cursive;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
