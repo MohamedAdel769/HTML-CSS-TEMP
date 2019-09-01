@@ -1,0 +1,363 @@
+.container{
+    width: 1000px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif
+}
+
+h2 {text-transform: uppercase}
+p {line-height: 1.7}
+
+.my-button{
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none ;
+    border: 2px solid #26D56E;
+    padding: 10px 15px;
+    color: #26D56E;
+}
+
+.my-button:hover{
+  background-color:#26D56E;
+  color: white;
+  border: 2px solid #c6f1d6;
+}
+
+/*Start header*/
+.header .slider{
+    height: 800px;
+    background-image: url('../imgs/lab.jpg');
+    background-size: cover;
+}
+
+.header .slider .intro{
+    padding-top: 35%;
+    text-align: center;
+    color: #FFF;
+}
+
+.header .slider .intro h1{
+    margin: 0 auto 35px;
+    padding: 10px 0;
+    font-size: 44px;
+    width: 480px;
+    border-top: 3px solid #FFF;
+    border-bottom: 3px solid #FFF;
+}
+
+.header .slider .intro button{
+    background: none;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 2px solid #FFF;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.header .slider .intro button:hover{
+    background: #FFF;
+    color: #252F31;
+    border: 2px solid black;
+}
+
+.header .nav-bar{
+    background-color: #252F31;
+    color: #FFF;
+    overflow: hidden
+}
+
+.header .nav-bar h2{float: left; font-family: 'Permanent Marker', cursive;}
+
+.header .nav-bar h2 span{color: #26D56E}
+
+.header .nav-bar ul{
+    list-style: none;
+    float: right;
+    padding-left: 0;
+}
+
+.header .nav-bar ul li{float: left; padding: 10px 20px}
+
+.header .nav-bar ul li a{color: #FFF;text-decoration: none}
+
+.header .nav-bar ul li.active a,
+.header .nav-bar ul li a:hover {color: #26D56E}
+/*End header*/
+
+/*Start features*/
+.features {overflow: hidden; margin: 50px 0 55px}
+
+.features .feat-info{
+    float: left;
+    width: 33.333333%;
+    height: 150px;
+    color: #252F31;
+}
+
+.features .feat-info p{
+    text-align: justify-all;
+    padding: 0 5px;
+    color: #777;
+}
+/*End features*/
+
+/*Start Aboutme*/
+.about-me{overflow: hidden; background-color: #f2f2f2}
+
+.about-me img{display: block; float: left}
+
+.about-me .container > img{min-height: 434px}
+
+.about-me .info{float: left; width: 60%}
+
+.about-me .info .desc h2{margin: 30px 0 0 40px; color: #252F31}
+
+.about-me .info p {color: #444}
+
+.about-me .info .desc p{margin: 10px 0 0 40px;}
+
+.about-me .info .desc p:last-of-type{margin-top: 15px;}
+
+.about-me .info .hobbies {
+    overflow: hidden;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.about-me .info .hobbies .content{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.about-me .info .hobbies .content .icon{
+    float: left;
+    width: 15%;
+    margin: 23px 12px 0 0;
+}
+
+.about-me .info .hobbies .content .icon img{width: 100%;}
+
+.about-me .info .hobbies .content .text{float: left; width: 80%;}
+
+.about-me .info .hobbies .content .text p{margin-top: 0; margin-bottom: 5px;}
+
+.about-me .info .hobbies h3{color: #252F31; margin-bottom: 5px;}
+/*End Aboutme*/
+
+/*Start Skills*/
+.my-skills{overflow: hidden; padding: 30px 0 40px;}
+
+.my-skills .about-skills,
+.my-skills .skills{width: 50%; float: left;}
+
+.my-skills .about-skills{min-height: 332px;}
+
+.my-skills .about-skills h2{margin: 20px 0 10px 40px; color: #252F31;}
+
+.my-skills .about-skills p { color: #444; margin: 30px 0 0 40px;}
+
+.my-skills .about-skills p:last-of-type{margin-top: 30px;}
+
+.my-skills .about-skills button{margin: 47px 0 0 40px ;}
+
+.my-skills .skills h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0 10px 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.my-skills .skills div{
+    background-color: #f2f2f2;
+    height: 24px;
+    border: 1px solid #414c50;
+    margin-left: 30px;
+}
+
+.my-skills .skills div span{
+    height: 24px;
+    display: block;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: right;
+}
+/*End Skills*/
+
+/*Start Resume, Testim*/
+.my-resume, .Testim{ background-color: #f2f2f2; text-align: center;}
+
+.my-resume {padding: 60px 0}
+
+.my-resume h2{margin-top: 5px; color: #252F31;}
+
+.my-resume p{margin: 25px 0 30px; color: #444;}
+
+.Testim {padding: 50px 0;}
+
+.Testim q{
+    color: #444;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.Testim h3 {
+  color: #555;
+  margin-top: 15px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.Testim ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.Testim li{
+  width: 15px;
+  height: 15px;
+  border: 2px solid #26D56E;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.Testim li.active,
+.Testim li:hover{background-color: #26D56E}
+
+/*End Resume, Testim*/
+
+/*Start Education*/
+.my-education{overflow: hidden; padding: 30px 0}
+
+.my-education .about-education h2{margin: 20px 0 10px 40px; color: #252F31;}
+
+.my-education .about-education p {color: #444; margin: 30px 0 0 40px;}
+
+.my-education .about-education p:last-of-type{margin-top: 30px;}
+
+.my-education .about-education{
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+}
+
+.my-education .education{width: 45%; float: left;}
+
+.my-education .education h3{
+    margin-top: 75px;
+    color: #252F31;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.my-education .education p{color: #888;}
+
+.my-education .education p:first-of-type{margin:10px 0;}
+
+.my-education .education span{
+    background-color: #26D56E;
+    color: #fff;
+    padding: 5px 10px ;
+    display: inline-block;
+}
+
+.my-education .education hr{
+    height: 1px;
+    background-color: #999;
+    border: 0;
+    margin: 25px 0 15px;
+}
+/*End Education*/
+
+/*Start Portfolio*/
+.portfolio{
+    overflow: hidden;
+    padding: 30px 0;
+    text-align: center
+}
+
+.portfolio h2{color: #252F31}
+
+.portfolio p{color: #888; margin-bottom: 30px;}
+
+.portfolio .my-work{overflow: hidden;}
+
+.portfolio .my-work > div{
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 15px;
+}
+
+.portfolio .my-work > div img{
+    width: 95%;
+    margin: 10px;
+    padding: 2px;
+    background-color: #fff;
+    border: 1px solid #ccc
+}
+/*End Portfolio*/
+
+/*Start ContactMe*/
+.contact-me{
+    background-color: #252F31;
+    overflow: hidden;
+    padding: 50px 0 70px ;
+}
+
+.contact-me .contacts h2{color: white; margin-left: 40px;}
+
+.contact-me .contacts p{color: #80888B; margin-left: 40px;}
+
+.contact-me .contacts span{color: white}
+
+.contact-me .contacts{
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+}
+
+.contact-me form{
+    float: left;
+    width: 45%;
+    margin-top: 40px;
+}
+
+.contact-me form label{
+    display: block;
+    color: #ddd;
+    margin-top: 10px;
+}
+
+.contact-me form input[type="Text"],
+.contact-me form textarea{
+    width: 75%;
+    background-color: #5d5d5d;
+    border: 0;
+    margin-top: 10px;
+    color: #eee;
+}
+
+.contact-me form input[type="Text"]{height: 30px;}
+
+.contact-me form textarea{height: 90px;display: block;}
+
+.contact-me form input[type="submit"]{
+    background-color: #191E22;
+    border: 0;
+    margin-top: 20px;
+    color: #eee;
+    padding: 10px 15px;
+}
+/*End ContactMe*/
+
+/*Start Footer*/
+.footer{
+    background-color: #191E22;
+    text-align: center;
+    color: #80888B;
+    padding: 20px 0;
+}
+.footer span {font-family: 'Permanent Marker', cursive;}
+/*End Footer*/
